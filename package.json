@@ -1,0 +1,25 @@
+{
+  "name": "angular-window",
+  "version": "0.0.1",
+  "description": "AngularJS module for handling resize event",
+  "main": "window.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/michalvvv/angular-window.git"
+  },
+  "keywords": [
+    "angular",
+    "framework",
+    "browser",
+    "window",
+    "client-side"
+  ],
+  "author": "Michał Malinka <malinka.michal@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michalvvv/angular-window/issues"
+  }
+}

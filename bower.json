@@ -1,0 +1,9 @@
+{
+  "name": "angular-window",
+  "version": "0.0.1",
+  "main": "./window.js",
+  "ignore": [],
+  "dependencies": {
+    "angular": "1.3.14"
+  }
+}
