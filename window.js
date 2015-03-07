@@ -19,7 +19,7 @@
           $rootScope.size.width = width;
           $rootScope.size.height = height;
           notify(width, height);
-          $rootScope.$broadcast('$windowResized', angular.copy({}, $rootScope.size, {event: e}));
+          $rootScope.$broadcast('$windowResized', angular.extend({}, $rootScope.size, {event: e}));
         });
       });
 
