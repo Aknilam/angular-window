@@ -1,6 +1,6 @@
 {
   "name": "angular-window",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "AngularJS module for handling resize event",
   "main": "window.js",
   "scripts": {
