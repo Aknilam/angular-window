@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/michalvvv/angular-window.git"
+    "url": "https://github.com/Aknilam/angular-window.git"
   },
   "keywords": [
     "angular",
@@ -20,6 +20,6 @@
   "author": "Michał Malinka <malinka.michal@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/michalvvv/angular-window/issues"
+    "url": "https://github.com/Aknilam/angular-window/issues"
   }
 }
