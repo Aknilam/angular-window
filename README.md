@@ -34,13 +34,16 @@ angular.controller('myController', ['$scope', 'ngWindow', function($scope, ngWin
 }]);
 ```
 
-bind on change event:
+bind and unbind on change event:
 
 ```javascript
-ngWindow.bind(function(width, height) {
+var onChange = function(width, height) {
   var i = 10;
   $scope.value = width + i * height;
-});
+};
+ngWindow.bind(onChange);
+...
+ngWindow.unbind(onChange);
 ```
 
 or through Angular event:

@@ -29,6 +29,13 @@
         notifications.push(callback);
       };
 
+      var unbindCallback  = function(callback) {
+        var id = notifications.indexOf(callback);
+        if (id > -1) {
+          notifications.splice(id, 1);
+        }
+      };
+
       var notify = function(width, height) {
         angular.forEach(notifications, function(action) {
           action(width, height);
@@ -36,7 +43,8 @@
       };
 
       return {
-        bind: bindCallback
+        bind: bindCallback,
+        unbind: unbindCallback
       };
     }
   ]);
